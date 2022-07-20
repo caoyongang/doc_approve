@@ -4,6 +4,7 @@
       <v-toolbar-title> <v-icon>mdi-ticket-percent</v-icon>Travel Permits Management System</v-toolbar-title>
 
       <v-spacer></v-spacer>
+      <Nav></Nav>
       <v-toolbar-title>Welcome</v-toolbar-title>
     </v-app-bar>
     <Login />
@@ -13,11 +14,13 @@
 <script>
 // @ is an alias to /src
 import Login from "@/components/Login.vue";
+import Nav from "@/components/Nav.vue"
 
 export default {
   name: "Home",
   components: {
     Login,
+    Nav
   },
 };
 </script>
